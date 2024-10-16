@@ -13,7 +13,6 @@ Math = function(m)
     return nil
   end
   ensure_mitex()
-  quarto.log.output(m)
   if m.mathtype == "InlineMath" then
     return pandoc.RawInline('typst', '#mi("' .. m.text .. '")')
   end
