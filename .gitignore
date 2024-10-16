@@ -1,4 +1,5 @@
 *.html
 *.pdf
+*.typ
 *_files/
 /.luarc.json

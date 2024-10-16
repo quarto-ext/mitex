@@ -34,10 +34,6 @@ filters:
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
 
-``` markdown
-{{< include example.qmd >}}
-```
-
 - Inline Math will be wrapped in a Typst RawInline using `#mi()`
 - Display Math will be transformat to Typst RawBlock using `#mitex()`
 

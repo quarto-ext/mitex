@@ -1,9 +1,12 @@
 ---
-Title: Math in Typst rendered through Mitex
+title: Math in Typst rendered through Mitex
 format: typst
 filters: 
   - mitex
 keep-typ: true
+# to get typ source published
+resources: 
+  example.typ
 ---
 
 This a Typst document with a simple inline LaTeX equation $\hat{F}$ and a complicated LaTeX block equation:
