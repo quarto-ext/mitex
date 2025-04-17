@@ -14,7 +14,7 @@ Math = function(m)
   end
   ensure_mitex()
   if m.mathtype == "InlineMath" then
-    return pandoc.RawInline('typst', '#mi("' .. m.text .. '")')
+    return pandoc.RawInline('typst', '#mi(`' .. m.text .. '`)')
   end
 end
 

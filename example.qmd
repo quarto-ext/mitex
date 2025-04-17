@@ -19,3 +19,5 @@ $$
 &= \sum^T_{j=1} \Bigl[w_j\Bigl(\sum_{i\in I_j} g_i\Bigr) &+ \frac{1}{2} w_j^2 \Bigl(\sum_{i\in I_j} h_i + \lambda\Bigr) \Bigr] &+ \gamma T  \label{eq:dudu}
 \end{align*}
 $$
+
+Using inline: $\left(\frac{a}{b}\right)$
