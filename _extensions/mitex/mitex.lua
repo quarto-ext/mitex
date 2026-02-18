@@ -2,7 +2,7 @@ local math_activated = false
 
 local function ensure_mitex()
   if not math_activated then
-    quarto.doc.include_text('in-header', '#import "@preview/mitex:0.2.4": *')
+    quarto.doc.include_text('in-header', '#import "@preview/mitex:0.2.6": *')
     math_activated = true
   end
 end
